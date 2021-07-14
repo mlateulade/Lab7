@@ -30,7 +30,7 @@ class MainClass
 
   public static void Main (string[] args) 
   {
-    Console.WriteLine("Lab 7 Part 1");
+    Console.WriteLine("Lab 7 Section 1");
 
     string customer = "";    
     
