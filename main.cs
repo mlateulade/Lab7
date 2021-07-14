@@ -8,6 +8,7 @@ class MainClass
   public static double CalculateCharges()
   {
     double cost = 0.00;
+
     if(hours <= 3)
     {
       cost = 2.00;
@@ -28,7 +29,9 @@ class MainClass
 
 
   public static void Main (string[] args) 
-  {    
+  {
+    Console.WriteLine("Lab 7 Part 1");
+
     string customer = "";    
     
     while(customer != "n")
@@ -48,5 +51,9 @@ class MainClass
       customer = Console.ReadLine();
     }
     Console.WriteLine("this is the end!");
+
+    
+
+
   }  
 }
